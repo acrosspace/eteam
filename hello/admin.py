@@ -2,10 +2,10 @@ from django.contrib import admin
 
 # Register your models here.
 
-from .models import Team
+from .models import Hello
 
-@admin.register(Team)
-class TeamAdmin(admin.ModelAdmin):
+@admin.register(Hello)
+class HelloAdmin(admin.ModelAdmin):
     pass
     #list_display = ('name', 'description', 'created_date', 'contact_email', 'is_active')
     #list_filter = ['created_date']
