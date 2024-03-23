@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class HumonSararmConfig(AppConfig):
+class Kjyjy10Config(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'humon_sararm'
+    name = 'kjyjy10'
